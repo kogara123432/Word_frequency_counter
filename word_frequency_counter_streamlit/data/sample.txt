@@ -1,0 +1,6 @@
+Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing software.
+MapReduce is a programming model for processing large data sets with a parallel, distributed algorithm on a cluster.
+A MapReduce program is composed of a map procedure, which performs filtering and sorting, and a reduce method, which performs a summary operation.
+The word count example is the "Hello World" of big data: the map step emits every word with the number one, and the reduce step adds the numbers for each word.
+Hadoop stores data in HDFS and Hadoop splits large files into blocks, and every block is processed by a separate map task.
+Data locality means the computation moves to the data, because moving data across the network is expensive.

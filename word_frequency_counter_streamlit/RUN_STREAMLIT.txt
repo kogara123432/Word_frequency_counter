@@ -1,0 +1,20 @@
+HOW TO RUN THE STREAMLIT PROJECT ON WINDOWS
+
+1. Extract this ZIP file.
+2. Open the extracted word_frequency_counter_streamlit folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Install the required packages:
+       python -m pip install -r requirements.txt
+5. Start the web app:
+       python -m streamlit run src/streamlit_app.py
+6. A browser tab will open. If it does not, copy the Local URL shown in
+   the terminal (usually http://localhost:8501) into your browser.
+
+7. Upload one or more text files, or select "Use the project's sample.txt".
+8. Click "Count word frequencies".
+9. View the metrics, chart and table, then download word_counts.csv.
+
+NOTE:
+- This Streamlit app uses the existing MapReduce engine in src/mapreduce.py.
+- Hadoop is not required for this local Streamlit demonstration.
+- Python 3.8+ is required.
